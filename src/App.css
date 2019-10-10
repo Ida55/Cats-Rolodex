@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
   flex-direction:  column;
-  background-color:#95dada;
+  background-color:#eebe71;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
@@ -22,4 +22,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #000
 }
